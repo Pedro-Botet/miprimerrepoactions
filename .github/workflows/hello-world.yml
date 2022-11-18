@@ -1,4 +1,4 @@
-# Nombre del workflow (aparecerá en la GUI)
+# Nombre del workflow (aparecerá en la GUI) 
 name: hello-world
 # Cuándo se ejecuta: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
 on: push
@@ -12,6 +12,7 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+<<<<<<< HEAD
   my-second-job:
     runs-on: ubuntu-latest
     steps:
@@ -20,3 +21,6 @@ jobs:
           uses: gbougakov/no-deploy-friday@v1
           with:
             timezone: 'Europe/Moscow'
+=======
+        
+>>>>>>> fd8c2aa70c1e099d276a423c17984eb942c37734
