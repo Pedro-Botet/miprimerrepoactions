@@ -16,7 +16,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: my-second-step
-          run: echo "Second"
+          # run: echo "Second"
           uses: gbougakov/no-deploy-friday@v1
           with:
             timezone: 'Europe/Moscow'
